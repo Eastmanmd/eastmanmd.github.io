@@ -1,20 +1,41 @@
-title: Ali Eastman Oku
-remote_theme: alshedivat/al-folio
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" # Options: air, aqua, contrast, midnight
 
-baseurl: "" # Leave empty if your repo name is username.github.io
-url: "https://username.github.io"
+# Site Information
+title: "Ali Eastman Oku MSc"
+name: "Ali Oku"
+description: "Bioinformatician | Data Scientist"
+url: "https://eastmanmd.github.io"
+baseurl: "" # Leave empty if your repo is eastmanmd.github.io
 
+# Navigation
 navigation:
-  - title: Resume
+  - title: "Resume"
     url: /resume/
-  - title: Code Reviews
+  - title: "Code Reviews"
     url: /code-reviews/
-  - title: Paper Reviews
+  - title: "Paper Reviews"
     url: /paper-reviews/
 
-# This tells Jekyll to treat your reviews as searchable content
-collections:
-  code_reviews:
-    output: true
-  paper_reviews:
-    output: true
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Defaults for Layouts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

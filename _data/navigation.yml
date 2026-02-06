@@ -1,0 +1,7 @@
+main:
+  - title: "Resume"
+    url: /resume/
+  - title: "Code Reviews"
+    url: /code-reviews/
+  - title: "Paper Reviews"
+    url: /paper-reviews/
