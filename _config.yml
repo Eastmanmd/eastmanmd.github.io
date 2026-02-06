@@ -1,5 +1,5 @@
 title: Ali Eastman Oku
-remote_theme: pmarsceill/just-the-docs # A clean, sidebar-based theme
+remote_theme: alshedivat/al-folio
 
 baseurl: "" # Leave empty if your repo name is username.github.io
 url: "https://username.github.io"
