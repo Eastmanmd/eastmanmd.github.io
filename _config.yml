@@ -20,11 +20,9 @@ navigation:
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Defaults for Layouts
 defaults:
