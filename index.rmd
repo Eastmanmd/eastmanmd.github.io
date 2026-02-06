@@ -1,0 +1,33 @@
+---
+layout: single
+author_profile: true
+title: "Computational Biologist & Data Optimizer"
+excerpt: "Bridging the gap between big genomic data and biological insights."
+header:
+  overlay_image: /assets/images/bioinformatics-bg.jpg # You can add a DNA/code image here later
+  overlay_filter: 0.5
+  actions:
+    - label: "View My Code Reviews"
+      url: "/code-reviews/"
+---
+
+### Welcome
+I am a bioinformatician dedicated to building reproducible pipelines and keeping up with the rapidly evolving landscape of genomic literature. This site serves as my digital portfolio and a resource for the community.
+
+---
+
+## What I Do
+
+| Focus Area | Description |
+| :--- | :--- |
+| **Pipeline Development** | Building scalable workflows using Nextflow and Snakemake. |
+| **Code Auditing** | Reviewing and optimizing scripts for memory efficiency in HPC environments. |
+| **Literature Synthesis** | Breaking down complex multi-omic papers into actionable summaries. |
+
+---
+
+## Latest Reviews
+* **Code:** [Optimizing Burrows-Wheeler Transform implementation](/code-reviews/)
+* **Paper:** [Deep Learning in Spatial Transcriptomics (Nature 2025)](/paper-reviews/)
+
+[View all my work →](/resume/)
