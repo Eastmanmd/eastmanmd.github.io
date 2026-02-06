@@ -23,6 +23,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-include-cache
 
 # Defaults for Layouts
 defaults:
