@@ -1,0 +1,17 @@
+title: Bioinfo Portfolio
+remote_theme: pmarsceill/just-the-docs # A clean, sidebar-based theme
+
+navigation:
+  - title: Resume
+    url: /resume/
+  - title: Code Reviews
+    url: /code-reviews/
+  - title: Paper Reviews
+    url: /paper-reviews/
+
+# This tells Jekyll to treat your reviews as searchable content
+collections:
+  code_reviews:
+    output: true
+  paper_reviews:
+    output: true
